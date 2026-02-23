@@ -1,0 +1,35 @@
+## Visual Studio 2026 / .NET Core
+## Oculta pastas de compilação e caches do VS
+.vs/
+[Bb]in/
+[Oo]bj/
+out/
+msbuild.log
+*.user
+*.userosscache
+*.sln.docstates
+
+## Rider / VS Code
+.idea/
+.vscode/
+
+## Arquivos de segredo e configuração local
+appsettings.Development.json
+appsettings.local.json
+secrets.json
+.env
+
+## Entity Framework & Bancos de Dados
+*.db
+*.db-shm
+*.db-wal
+*.sqlproj.user
+
+## Node / Frontend (caso adicione depois)
+node_modules/
+npm-debug.log*
+
+## Sistema Operacional
+Thumbs.db
+desktop.ini
+.DS_Store
