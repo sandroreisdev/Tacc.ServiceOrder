@@ -2,5 +2,6 @@
   <Folder Name="/src/">
     <Project Path="src/Tacc.ServiceOrder.Api/Tacc.ServiceOrder.Api.csproj" Id="cb5dad76-9a10-462b-bc0e-4ea80bf8389a" />
     <Project Path="src/Tacc.ServiceOrder.Application/Tacc.ServiceOrder.Application.csproj" Id="0be105cd-a4ed-42a2-b22b-1878d4380876" />
+    <Project Path="src/Tacc.ServiceOrder.Domain/Tacc.ServiceOrder.Domain.csproj" Id="5c12270a-537b-44ff-a062-bc5a908e6f6e" />
   </Folder>
 </Solution>
