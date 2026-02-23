@@ -1,0 +1,6 @@
+@Tacc.ServiceOrder.Api_HostAddress = http://localhost:5221
+
+GET {{Tacc.ServiceOrder.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
