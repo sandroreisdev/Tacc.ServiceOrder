@@ -10,6 +10,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.Configure<RouteOptions>(options => options.LowercaseUrls = true);
 
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
 var app = builder.Build();
 
 
